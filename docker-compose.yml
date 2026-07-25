@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: vaultflow_postgres
+    environment:
+      POSTGRES_USER: vaultflow_admin
+      POSTGRES_PASSWORD: changeme_dev_only
+      POSTGRES_DB: vaultflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - vaultflow_pgdata:/var/lib/postgresql/data
+
+volumes:
+  vaultflow_pgdata:
