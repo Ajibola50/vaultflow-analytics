@@ -9,7 +9,6 @@ class UserCreate(BaseModel):
     phone_number: str
     bvn: Optional[str] = None
     nin: Optional[str] = None
-    kyc_tier: int
     date_of_birth: date
     state: str
     signup_date: datetime
