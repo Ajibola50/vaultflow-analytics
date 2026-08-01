@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: vaultflow-analytics
+    schema: raw
+    tables:
+      - name: raw_users
+      - name: raw_transactions
+      - name: raw_savings_plans
+      - name: raw_investments
+      - name: raw_wallets
+      - name: raw_referrals
