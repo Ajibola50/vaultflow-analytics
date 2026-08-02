@@ -23,6 +23,12 @@ Python (Faker) → FastAPI → PostgreSQL (OLTP) → BigQuery (raw → staging �
 - **VaultFlow Compliance Dashboard** — KYC tier limit breaches, transaction status health, channel usage, savings plan status
 - **VaultFlow Growth & Engagement Dashboard** — signup trends, user growth funnel, referral outcomes, geographic distribution
 
+### Compliance Dashboard
+![Compliance Dashboard](docs/compliance_dashboard.png)
+
+### Growth & Engagement Dashboard
+![Growth Dashboard](docs/growth_dashboard.png)
+
 ## Tech Stack
 
 Python, FastAPI, PostgreSQL, Docker, Google BigQuery, dbt, Metabase
